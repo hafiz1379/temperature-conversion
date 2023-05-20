@@ -44,7 +44,7 @@
   }
   
   /* Button styles */
- /* /* button { */
+ button {
     width: 100%;
     padding: 12px;
     background-color: #4CAF50;
@@ -55,21 +55,21 @@
     font-size: 16px;
     transition: background-color 0.3s;
     margin-bottom: 10px;
-  }  */
+  } 
   
   button:hover {
     background-color: #45a049;
   }
   
   /* Output styles */
-  /* #output {
+  #output {
     margin-top: 20px;
     font-size: 18px;
     color: #333;
     opacity: 0;
     transition: opacity 0.5s;
   }
-   */
+  
   /* Animation for output */
   keyframes fadeIn {
     from {
