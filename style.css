@@ -1,0 +1,82 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 01);
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /* Heading styles */
+  h1 {
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  /* Input and select styles */
+  input,
+  select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size:16px;
+    outline: none;
+  }
+  
+  /* Button styles */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Output styles */
+  #output {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  /* Animation for output */
+  keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
